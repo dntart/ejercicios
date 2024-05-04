@@ -1,0 +1,33 @@
+- para logearnos desde terminal y conectarnos a github
+git config --global user.name "dntart"
+git config --global user.email dantecesarsegovia@gmail.com
+
+- para chequear que esta ok el paso anterior
+git config --list
+
+- crear el primer repo
+git init 
+(dentro de la carpeta donde lo quiero)
+
+- ver si hay cambios para subir
+git status
+
+- para cambiar de estado de guardado a listo para subir (de untracked a tracked)
+git add      
+(+ el nombre del arhivo archivos o "git add ." git add espacio punto sirve para cambiar de estado a todo)
+
+- para guardar definitivamente el cambio 
+git commit -m "comentario u observacion"
+
+	GIT HUB
+- para crear una rama del master para trabajar en remoto
+git branch -M main 
+
+- para vincular el local con el remoto
+git remote add origin https://github.com/dntart/ejercicios.git
+
+-para empujar los cambios al remoto
+git push -u origin main
+
+   
+
