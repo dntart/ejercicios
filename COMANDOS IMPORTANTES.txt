@@ -4,20 +4,20 @@ git config --global user.email dantecesarsegovia@gmail.com
 
 - para chequear que esta ok el paso anterior
 git config --list
-
-- crear el primer repo
+- crear el primer repo (archivo .git que nos va a servir p/guardar todo y compartirlo en remoto con github)
 git init 
 (dentro de la carpeta donde lo quiero)
 
-- ver si hay cambios para subir
+- ver si hay cambios para subir ("no commits yet" me va a salir si no hay nada para commitear)
 git status
 
-- para cambiar de estado de guardado a listo para subir (de untracked a tracked)
+- para cambiar de estado de guardado a listo para subir (de working area a staging area, de untracked a tracked)
 git add      
-(+ el nombre del arhivo archivos o "git add ." git add espacio punto sirve para cambiar de estado a todo)
+(+ el nombre del archivo/s ej. git add index.html o "git add ." git add espacio punto sirve para cambiar de estado a todo)
 
 - para guardar definitivamente el cambio 
 git commit -m "comentario u observacion"
+(el comentario sirve para el equipo de trabajo para que sepa que hicimos)
 
 	GIT HUB
 - para crear una rama del master para trabajar en remoto
