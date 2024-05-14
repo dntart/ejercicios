@@ -5,8 +5,10 @@ git config --global user.email dantecesarsegovia@gmail.com
 - para chequear que esta ok el paso anterior
 git config --list
 - crear el primer repo (archivo .git que nos va a servir p/guardar todo y compartirlo en remoto con github)
+
+- crear el archivo .git donde se guardaran los cambios de versiones es el archivo madre
 git init 
-(dentro de la carpeta donde lo quiero)
+
 
 - ver si hay cambios para subir ("no commits yet" me va a salir si no hay nada para commitear)
 git status
@@ -20,7 +22,10 @@ git commit -m "comentario u observacion"
 (el comentario sirve para el equipo de trabajo para que sepa que hicimos)
 
 	GIT HUB
-- para crear una rama del master para trabajar en remoto
+-crear un repositorio nuevo desde github con el boton verde "new" ponerle un nombre y seguir los pasos de que ya tenemos
+un repo local y necesitamos pushearlo al github desde el gitlocal
+
+- para crear una rama del master para trabajar en remoto (pasa de MASTER a Main)
 git branch -M main 
 
 - para vincular el local con el remoto

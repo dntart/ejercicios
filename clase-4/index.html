@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Document</title>
+    <title>Clase-4</title>
     <link rel="stylesheet" href="estilos.css">
 
 
@@ -12,16 +12,16 @@
 
 <body>
     <header id="arriba" class="encabezado">
-        <nav>
-            <ul class="MenuSuperior">
+        <nav class="MenuSuperior">
+            <ul>
                 <li><a href="./index.html">Home</a></li>
-                <li><a href="./pages/personajes.html">Personajes</a></li>
+                <li><a href="../clase-4/pages/personajes.html">Personajes</a></li>
                 <li><a href="#"></a>Contacto</li>
                 <li><a href="#"></a>Nosotros</li>
             </ul>
 
         </nav>
-        <h1 class="Titulo">Harry Potter</h1>
+
     </header>
 
     <section class="contenido">
@@ -45,9 +45,19 @@
             </div>
         </div>
     </section>
-
+    <article class="contenido__sugerencias">
+        <h3 class="titulo__sugerencias__videos">Videos sugeridos</h3>
+        <div class="propiedades__multimedia">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/4FjSTsDXirs?si=RoOGshlh0mibQP5M"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <video src="../clase-4/videos/Harry Potter y la Piedra Filosofa.mp4"></video>
+    </div>
+    </article>
+    
     <aside class="contenido__sugerencias">
-        <h4>Sugerencia libros</h4>
+        <h2 class="titulo__sugerencias__libros">Libros sugeridos</h2>
         <div class="sugerencias__libros">
             <img src="./imagenes/libros harry2020.jpg" alt="libros Harry Potter">
         </div>
@@ -67,11 +77,11 @@
 
     </aside>
 
-    
 
-<footer class="footer">
-    Pie de Pagina
-</footer>
+
+    <footer class="footer">
+        <a href="#arriba">Pie de Pagina</a>
+    </footer>
 </body>
 
 </html>

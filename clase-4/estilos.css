@@ -5,8 +5,49 @@
     box-sizing: border-box;
 }
 
+html {
+    font-size: 10px;
+}
+
+/*estilo menu*/
+.MenuSuperior {
+    list-style: none;
+    text-align: center;
+    color: aliceblue;
+    font-size: 3rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+
+
+}
+
+.MenuSuperior li {
+
+    display: inline-block;
+    text-shadow: 2px 2px 5px black;
+}
+
+.encabezado {
+    background-image: url(../clase-4/imagenes/Harry_Potter_fondo\ wordmark.svg.png);
+    background-color: rgb(355, 239, 98);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 1rem;
+    height: 25vh;
+}
+
+.Titulo {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    padding-left: 10%;
+    padding-top: 28%;
+}
+
 /* contenido primario 3 imagenes */
 .contenido {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
     background-color: rgb(182, 21, 0);
     padding: 2rem;
     width: 70%;
@@ -15,7 +56,7 @@
 
 .contenido-imagen {
     background-color: rgb(255, 252, 83);
-    width: 50%;
+    width: 100%;
 }
 
 /* funcion para que la imagen ocupe el 100% de la caja */
@@ -27,8 +68,11 @@
 
 }
 
-/* contenido secundario */
+/* contenido secundario aside*/
+
+
 .contenido__sugerencias {
+    font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(255, 255, 132);
     border: solid 5px rgb(78, 78, 78);
     border-top: solid 5px rgb(117, 44, 44);
@@ -36,26 +80,57 @@
     line-height: 1rem;
     padding: 2rem;
     width: 30%;
+    height: 100%;
     float: right;
+
+}
+
+.titulo__sugerencias__videos {
+    font-size: 3rem;
+    line-height: 3rem;
+}
+
+.propiedades__multimedia iframe {
+    width: 100%;
+}
+
+.propiedades__multimedia video {
+    width: 100%;
+}
+
+.titulo__sugerencias__libros {
+    font-size: 3rem;
+    line-height: 3rem;
 
 }
 
 /* medida width es el 90% del 100% de .contenido__sugerencias y img es el 100% dentro de los 90%*/
 .sugerencias__libros {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 8rem;
     width: 90%;
     padding-top: 1rem;
 }
 
 .sugerencias__libros img {
-    width: 100%;
+    width: 110%;
 }
 
 .lista__libros {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    line-height: 2rem;
     padding-top: 1rem;
+    padding-left: 4rem;
+
+    line-height: 5rem;
 }
 
 /*Pie de pagina*/
 .footer {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
     background-color: rgb(61, 3, 3);
     color: white;
     clear: both;
