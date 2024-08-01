@@ -1,0 +1,31 @@
+
+#index {
+    
+    background-color: grey;
+    /* font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+ font-weight: 100;
+  font-style: normal;*/
+
+    font-family: "Amatic SC", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    background-color:  #edeeee;;
+
+
+
+}
+
+#index .container{
+    display: grid;
+    grid-template-areas:
+        "navigation navigation navigation"
+        "header header header"
+        "about about about"
+        "servicios servicios servicios"
+        "galeria galeria galeria"
+        "contacto contacto contacto"
+        "footer footer footer"
+    ;
+
+}

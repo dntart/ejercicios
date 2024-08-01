@@ -1,0 +1,32 @@
+#index .container #services h1{
+    font-size: 5rem;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+#index .container #services .cards {
+    
+    grid-area: servicios;
+    display: flex;
+    flex-wrap: nowrap;
+    text-align: center;
+}
+
+
+
+#index .container #services img {
+    width: 40rem;
+   
+
+
+}
+
+#index .container #services .card-title  {
+    font-size: 3rem;
+   
+}
+
+#index .container #services .card-description {
+    font-size: 2rem;
+}
+

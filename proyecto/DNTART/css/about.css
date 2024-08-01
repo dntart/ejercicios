@@ -1,0 +1,7 @@
+#index .container #about {
+   
+    grid-area: about;
+    padding: 2rem;
+    font-size: 3rem;
+    text-align: center;
+}

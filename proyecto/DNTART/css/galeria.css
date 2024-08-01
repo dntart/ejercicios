@@ -1,0 +1,27 @@
+#index .container #galeria h1 {
+    font-size: 5rem;
+    text-align: center;
+    padding-top: 3rem;
+}
+
+#index .container #galeria {
+
+    grid-area: galeria;
+
+
+}
+
+#index .container #galeria ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+            
+}
+
+#index .container #galeria ul li img {
+    height: 30rem;
+
+
+
+}
